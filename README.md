@@ -1,0 +1,2 @@
+# hoimetruyen
+Shell Setup HoiMeTruyen
