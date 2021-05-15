@@ -1,4 +1,5 @@
 git clone git@github.com:HellCatVN/hoimetruyen-site.git || true
+git clone git@github.com:HellCatVN/hoimetruyen-mobile-site.git || true
 git clone git@github.com:HellCatVN/hoimetruyen-api.git || true
 git clone git@github.com:HellCatVN/hoimetruyen-evil.git || true
 git clone git@github.com:HellCatVN/hoimetruyen-admin.git || true
@@ -12,6 +13,10 @@ ln -s $(pwd)/hoimetruyen-modules hoimetruyen-api/
 ln -s $(pwd)/hoimetruyen-modules hoimetruyen-evil/
 
 cd hoimetruyen-admin && yarn
+cd ../hoimetruyen-site && yarn
+cd ../hoimetruyen-mobile-site && yarn
+cd ../hoimetruyen-models && 
+cd ../hoimetruyen-modules && yarn
 cd ../hoimetruyen-api && yarn
 cd ../hoimetruyen-evil && yarn
 cd ../hoimetruyen-manager && yarn
