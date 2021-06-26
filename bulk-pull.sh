@@ -1,6 +1,7 @@
 cd hoimetruyen-api && git pull
 cd ../hoimetruyen-mobile-site && git pull
-cd ../hoimetruyen-site && git pull
+cd ../hoimetruyen-comic-site && git pull
+cd ../hoimetruyen-account && git pull
 cd ../hoimetruyen-admin && git pull
 cd ../hoimetruyen-manager && git pull
 cd ../hoimetruyen-evil && git pull

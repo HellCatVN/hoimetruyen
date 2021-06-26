@@ -1,7 +1,7 @@
 .vscode
 .idea
 
-hoimetruyen-site
+hoimetruyen-comic-site
 hoimetruyen-admin
 hoimetruyen-manager
 hoimetruyen-evil
@@ -9,3 +9,4 @@ hoimetruyen-models
 hoimetruyen-mobile-site
 hoimetruyen-modules
 hoimetruyen-api
+hoimetruyen-account
